@@ -1,4 +1,4 @@
-# 📊 Data Professional Survey Dashboard (Power BI)
+# 📊 Data Professional Survey
 
 ![Image Alt](https://github.com/wilhmhkm/Data_Professional_Survey/blob/1fff17f68efd9ce3f683bb7d661f3361b31b7ae4/Screenshot%202026-03-30%20221759.jpg)
 
