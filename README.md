@@ -3,7 +3,7 @@
 ![Image Alt](https://github.com/wilhmhkm/Data_Professional_Survey/blob/7e6d41936bbd50bf983b3ecafc23487bf8416bcd/Project%20Dashboard.jpg)
 
 ## 📌 Executive Summary
-This project presents an interactive **Power BI dashboard** built using real-world survey data collected from ~630 data professionals. The objective was to transform raw, unstructured survey responses into meaningful insights about roles, salaries, skills, and career experiences within the data industry.
+This project presents an interactive **Power BI dashboard** built using real-world survey data collected from 630 data professionals. The objective was to transform raw, unstructured survey responses into meaningful insights about roles, salaries, skills, and career experiences within the data industry.
 
 Using Power BI’s data transformation and visualization capabilities, the dataset was cleaned, standardized, and modeled to create a user-friendly dashboard. The final output enables quick, high-level insights as well as deeper exploration through interactive visuals.
 
