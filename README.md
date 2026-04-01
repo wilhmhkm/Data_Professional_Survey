@@ -3,9 +3,10 @@
 ![Image Alt](https://github.com/wilhmhkm/Data_Professional_Survey/blob/7e6d41936bbd50bf983b3ecafc23487bf8416bcd/Project%20Dashboard.jpg)
 
 ## 📌 Executive Summary
-This project presents an interactive **Power BI dashboard** built using real-world survey data collected from 630 data professionals. The objective was to transform raw, unstructured survey responses into meaningful insights about roles, salaries, skills, and career experiences within the data industry.
 
-Using Power BI’s data transformation and visualization capabilities, the dataset was cleaned, standardized, and modeled to create a user-friendly dashboard. The final output enables quick, high-level insights as well as deeper exploration through interactive visuals.
+In this project, I present an interactive **Power BI dashboard** built using real-world survey data collected from 630 data professionals. My goal is to transform raw, unstructured survey responses into meaningful insights around roles, salaries, skills, and overall career experiences within the data industry.  
+
+I use Power BI’s data transformation and visualization capabilities to clean, standardize, and model the dataset, making it intuitive and analysis-ready. The final dashboard allows users to quickly understand high-level trends while also exploring deeper insights through interactive visuals.
 
 ---
 
@@ -27,112 +28,50 @@ Using Power BI’s data transformation and visualization capabilities, the datas
 
 ## 🚀 Data Processing Steps
 
-### 1. Data Import
-- Imported raw CSV survey data into Power BI  
-- Loaded dataset into **Power Query Editor** for transformation  
+I start by importing the raw CSV survey data into Power BI and loading it into the Power Query Editor for transformation.  
 
-### 2. Data Cleaning & Transformation
-- Removed irrelevant columns (e.g., email, browser metadata)  
-- Standardized categorical fields:
-  - Simplified job titles (grouped “Other” responses)
-  - Cleaned programming languages using delimiter splits  
-- Handled inconsistent text inputs using delimiters (e.g., “(”, “:”)  
-- Transformed salary ranges:
-  - Split into min/max values  
-  - Converted to numeric format  
-  - Created **average salary column**  
-- Fixed data types (text → numeric where needed)  
-- Reduced high-cardinality fields by grouping rare values  
+I remove irrelevant columns such as email and browser metadata, then standardize categorical fields by simplifying job titles and grouping “Other” responses. I also clean programming language data using delimiter-based splits and handle inconsistent text inputs using characters like “(” and “:”.  
 
-### 3. Feature Engineering
-- Created:
-  - **Average Salary (calculated column)**
-  - Aggregated KPIs (average age, total respondents)
+For salary data, I split ranges into minimum and maximum values, convert them into numeric format, and create an average salary column. I also correct data types where needed and reduce high-cardinality fields by grouping less frequent values.  
 
-### 4. Data Modeling
-- Built a single-table model (no joins required)  
-- Ensured proper field categorization for visuals  
+I create calculated fields such as average salary and aggregate key metrics like average age and total respondents to support analysis.  
 
-### 5. Dashboard Development
-- Designed interactive dashboard with:
-  - KPI cards
-  - Comparative charts
-  - Country-based filtering  
+I build a single-table model, ensuring all fields are properly categorized and optimized for visualization.  
 
-### 6. UI & Theme Customization
-- Applied Power BI themes  
-- Improved layout, spacing, and readability  
-- Organized visuals for storytelling  
+I design an interactive dashboard that includes KPI cards, comparative charts, and country-based filtering to support different analytical perspectives.  
+
+To improve usability, I apply Power BI themes, refine layout and spacing, and organize visuals in a way that supports clear and effective storytelling.
 
 ---
 
 ## 📊 Key Insights
 
-### 👥 Demographics
-- ~630 survey participants  
-- Average age: ~30 years  
+From the dataset, I observe that there are around 630 survey participants with an average age of approximately 30 years.  
 
-### 💼 Salary Trends
-- Data Scientists earn the highest average salaries  
-- Data Analysts are the most represented group  
-- Salary varies significantly by country  
+I find that Data Scientists earn the highest average salaries, while Data Analysts make up the largest portion of respondents. Salary levels also vary significantly across countries.  
 
-### 🌍 Geographic Impact
-- Higher salaries observed in the United States  
-- Lower averages in other regions reflect cost of living differences  
+Higher salary levels are observed in the United States, while lower averages in other regions reflect differences in cost of living.  
 
-### 💻 Programming Languages
-- Python is the most popular language  
-- Other common languages:
-  - R  
-  - C++  
-  - JavaScript  
-  - Java  
+Python emerges as the most widely used programming language, followed by others such as R, C++, JavaScript, and Java.  
 
-### 😊 Job Satisfaction
-- Work-life balance: moderate (~5.7/10)  
-- Salary satisfaction: relatively low  
+Work-life balance is rated moderately at around 5.7 out of 10, while salary satisfaction appears relatively low among respondents.  
 
-### 🚪 Entry Difficulty
-- Majority reported difficulty entering the data field  
-- Some experienced easier transitions  
+Most respondents report that entering the data field is challenging, although some indicate smoother transitions.  
 
-### ⚖️ Gender Comparison
-- Salaries between genders are relatively close  
-- Slight variation observed but not significant  
+Salary differences between genders are relatively small, with only slight variations that are not highly significant.  
 
 ---
 
 ## 💡 Recommendations
 
-### 1. Improve Data Collection
-- Use structured inputs (dropdowns instead of free text)  
-- Reduce inconsistent entries  
+I recommend using more structured inputs, such as dropdown menus instead of free text, to reduce inconsistencies in survey responses.  
 
-### 2. Enhance Data Cleaning
-- Standardize:
-  - Job titles  
-  - Programming languages  
-  - Country names  
-- Consider preprocessing with SQL or Python  
+I focus on standardizing key fields like job titles, programming languages, and country names, and consider preprocessing the data further using SQL or Python for better scalability.  
 
-### 3. Refine Salary Data
-- Collect exact salary values instead of ranges  
-- Use sliders or numeric inputs in surveys  
+I suggest collecting exact salary values instead of ranges and using numeric inputs or sliders in surveys to improve accuracy.  
 
-### 4. Expand Analysis
-- Segment by:
-  - Experience level  
-  - Industry  
-  - Education  
-- Perform deeper statistical analysis  
+I see opportunities to segment the data further by experience level, industry, and education, and to apply deeper statistical analysis for more insights.  
 
-### 5. Improve Dashboard UX
-- Add slicers (filters) for better interactivity  
-- Include drill-through pages  
-- Optimize layout for storytelling  
+I enhance interactivity by adding slicers and drill-through pages, and optimize the layout to improve storytelling and usability.  
 
-### 6. Future Enhancements
-- Connect to live datasets  
-- Add predictive analytics  
-- Incorporate time-series analysis
+Looking ahead, I would connect the dashboard to live datasets, incorporate predictive analytics, and introduce time-series analysis to make the solution more dynamic and forward-looking.
